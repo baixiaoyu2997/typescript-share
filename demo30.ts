@@ -11,3 +11,4 @@ t=true
 
 // void类型
 let unusable: void=undefined;
+let unusable2: void=null;
