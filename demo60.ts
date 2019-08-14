@@ -1,9 +1,9 @@
 // 基础函数
-function findPeoples(num: number): string {
+function findPeoples(num: number): string { 
   return "找到了" + num + "个人";
 }
-console.log("findPeoples:" + findPeoples(18));
-
+console.log("findPeoples:" + findPeoples(18));  
+console.log("findPeoples:" + findPeoples(18,1)) // 注意，输入多余的（或者少于要求的）参数，是不被允许的：
 // 有可选参数的函数
 function findPeoples2(num: number, sex?: string): string {
   // 不确定是否有该参数时添加?
